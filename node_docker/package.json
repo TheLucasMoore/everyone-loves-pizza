@@ -1,0 +1,17 @@
+{
+  "name": "pizza",
+  "version": "1.0.0",
+  "description": "everyone loves pizza",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

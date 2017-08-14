@@ -1,0 +1,22 @@
+{
+  "name": "arc_pizza",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "AWS_PROFILE=default AWS_REGION=us-east-1 arc-create",
+    "deploy": "AWS_PROFILE=default AWS_REGION=us-east-1 arc-deploy",
+    "start": "NODE_ENV=testing arc-sandbox",
+    "dns": "AWS_PROFILE=default AWS_REGION=us-east-1 arc-dns",
+    "i": "arc-modules-install",
+    "link": "arc-modules-link",
+    "rm": "arc-modules-uninstall",
+    "update": "arc-modules-update"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@architect/workflows": "^1.0.20"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "pizza-get-000name",
+  "dependencies": {
+    "@architect/functions": "^1.3.0"
+  }
+}
