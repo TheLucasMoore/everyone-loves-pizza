@@ -1,0 +1,6 @@
+{
+  "name": "pizza-post-000name-vote",
+  "dependencies": {
+    "@architect/functions": "^1.4.1"
+  }
+}

@@ -6,8 +6,9 @@
   "scripts": {
     "create": "AWS_PROFILE=default AWS_REGION=us-east-1 arc-create",
     "deploy": "AWS_PROFILE=default AWS_REGION=us-east-1 arc-deploy",
-    "start": "NODE_ENV=testing arc-sandbox",
+    "start": "AWS_PROFILE=default AWS_REGION=us-east-1 NODE_ENV=testing arc-sandbox",
     "dns": "AWS_PROFILE=default AWS_REGION=us-east-1 arc-dns",
+    "start": "NODE_ENV=testing arc-sandbox",
     "i": "arc-modules-install",
     "link": "arc-modules-link",
     "rm": "arc-modules-uninstall",
@@ -17,6 +18,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@architect/workflows": "^1.0.20"
+    "@architect/workflows": "^1.0.19"
   }
 }
