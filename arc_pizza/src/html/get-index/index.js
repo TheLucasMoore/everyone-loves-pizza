@@ -8,7 +8,7 @@ function route(req, res) {
   // alert("hello")
   // this could be valid JS of any sort
   </script>
-  <h1>Who loves pizza?</h1>
+  <h1>🍕 Who loves pizza? 🍕</h1>
   `
   res({html:code})
 }
